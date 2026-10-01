@@ -1,1 +1,72 @@
-{ "user_info": { "username": "GG_STORE", "status": "Active" }, "server_info": { "url": "https://your-server.com" } }
+{
+  "user_info": {
+    "username": "GG_STORE",
+    "status": "Active"
+  },
+  "categories": [
+    {
+      "category_id": "1",
+      "category_name": "Filmes de Teste"
+    },
+    {
+      "category_id": "2",
+      "category_name": "Testes de Transmissão"
+    },
+    {
+      "category_id": "3",
+      "category_name": "Vídeos MP4"
+    }
+  ],
+  "channels": [
+    {
+      "num": 1,
+      "name": "Big Buck Bunny (HLS)",
+      "stream_type": "live",
+      "stream_id": 1,
+      "stream_icon": "",
+      "epg_channel_id": "big_buck_bunny",
+      "category_id": "1",
+      "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+    },
+    {
+      "num": 2,
+      "name": "Tears of Steel (HLS)",
+      "stream_type": "live",
+      "stream_id": 2,
+      "stream_icon": "",
+      "epg_channel_id": "tears_of_steel",
+      "category_id": "1",
+      "url": "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8"
+    },
+    {
+      "num": 3,
+      "name": "Apple Advanced Stream (BipBop)",
+      "stream_type": "live",
+      "stream_id": 3,
+      "stream_icon": "",
+      "epg_channel_id": "apple_bipbop",
+      "category_id": "2",
+      "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8"
+    },
+    {
+      "num": 4,
+      "name": "Sintel Trailer (HLS)",
+      "stream_type": "live",
+      "stream_id": 4,
+      "stream_icon": "",
+      "epg_channel_id": "sintel_demo",
+      "category_id": "1",
+      "url": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8"
+    },
+    {
+      "num": 5,
+      "name": "VideoJS Oceans Demo (MP4)",
+      "stream_type": "live",
+      "stream_id": 5,
+      "stream_icon": "",
+      "epg_channel_id": "oceans_mp4",
+      "category_id": "3",
+      "url": "https://vjs.zencdn.net/v/oceans.mp4"
+    }
+  ]
+}
